@@ -121,8 +121,7 @@ const HeaderComponent: React.FC = () => {
             bg="red"
             color="white"
             bgImg={{
-              uri:
-                'https://venngage-wordpress.s3.amazonaws.com/uploads/2018/09/Monochrome-Type-Simple-Background-Image.jpg',
+              uri: 'https://venngage-wordpress.s3.amazonaws.com/uploads/2018/09/Monochrome-Type-Simple-Background-Image.jpg',
             }}
             prefix={
               <Button bg="transparent" mr="lg">

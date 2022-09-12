@@ -37,8 +37,7 @@ const AvatarComponent: React.FC = () => {
             <Avatar
               shadow={1}
               source={{
-                uri:
-                  'https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/1024px-React-icon.svg.png',
+                uri: 'https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/1024px-React-icon.svg.png',
               }}
             />
           </Div>

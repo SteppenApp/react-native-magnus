@@ -155,8 +155,7 @@ const DivComponent: React.FC = () => {
             rounded="md"
             h={150}
             bgImg={{
-              uri:
-                'https://venngage-wordpress.s3.amazonaws.com/uploads/2018/09/Monochrome-Type-Simple-Background-Image.jpg',
+              uri: 'https://venngage-wordpress.s3.amazonaws.com/uploads/2018/09/Monochrome-Type-Simple-Background-Image.jpg',
             }}
           />
         </ExampleSection>
