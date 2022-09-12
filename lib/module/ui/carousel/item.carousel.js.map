@@ -1,0 +1,1 @@
+{"version":3,"names":["CarouselItem","children"],"sources":["item.carousel.tsx"],"sourcesContent":["import React from 'react';\n\nconst CarouselItem: React.FC = ({ children }) => {\n  return <>{children}</>;\n};\n\nexport default CarouselItem;\n"],"mappings":"mKAAA,oDAEA,GAAMA,aAAsB,CAAG,QAAzBA,aAAyB,MAAkB,IAAfC,SAAe,MAAfA,QAAe,CAC/C,MAAO,2DAAGA,QAAH,CAAP,CACD,CAFD,C,aAIeD,Y"}
