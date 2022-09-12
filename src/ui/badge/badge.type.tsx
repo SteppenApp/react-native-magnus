@@ -1,5 +1,6 @@
 import { ViewProps as RNViewProps } from 'react-native';
 import {
+  ChildrenPropsType,
   DimensionPropsType,
   FlexPropsType,
   OpacityPropsType,
@@ -17,6 +18,7 @@ import {
 export interface BadgeProps
   extends RNViewProps,
     BorderPropsType,
+    ChildrenPropsType,
     SpacingPropsType,
     RoundedPropsType,
     ShadowPropsType,

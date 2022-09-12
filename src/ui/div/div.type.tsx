@@ -13,10 +13,12 @@ import {
   OverflowPropsType,
   OpacityPropsType,
   VariantPropsType,
+  ChildrenPropsType,
 } from '../../types';
 
 export interface DivProps
   extends RNViewProps,
+    ChildrenPropsType,
     BorderPropsType,
     SpacingPropsType,
     RoundedPropsType,

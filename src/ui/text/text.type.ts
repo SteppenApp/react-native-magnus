@@ -1,6 +1,7 @@
 import { TextProps as RNTextProps } from 'react-native';
 import {
   BackgroundPropsType,
+  ChildrenPropsType,
   DimensionPropsType,
   FlexPropsType,
   OpacityPropsType,
@@ -15,6 +16,7 @@ import {
 
 export interface TextProps
   extends RNTextProps,
+    ChildrenPropsType,
     SpacingPropsType,
     RoundedPropsType,
     BorderPropsType,

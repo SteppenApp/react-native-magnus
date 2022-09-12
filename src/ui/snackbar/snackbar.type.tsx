@@ -1,6 +1,7 @@
 import { StyleProp, ViewStyle } from 'react-native';
 import {
   BackgroundPropsType,
+  ChildrenPropsType,
   DimensionPropsType,
   FlexPropsType,
   OpacityPropsType,
@@ -25,6 +26,7 @@ export interface SnackbarRef {
 
 export interface SnackbarProps
   extends BorderPropsType,
+    ChildrenPropsType,
     SpacingPropsType,
     ShadowPropsType,
     RoundedPropsType,

@@ -1,6 +1,7 @@
 import { ImageProps as RNImageProps } from 'react-native';
 import {
   BackgroundPropsType,
+  ChildrenPropsType,
   DimensionPropsType,
   FlexPropsType,
   OpacityPropsType,
@@ -15,6 +16,7 @@ import {
 
 export interface ImageProps
   extends RNImageProps,
+    ChildrenPropsType,
     BorderPropsType,
     SpacingPropsType,
     ShadowPropsType,

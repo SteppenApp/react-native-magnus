@@ -1,6 +1,7 @@
 import { ViewProps as RNViewProps } from 'react-native';
 import {
   BackgroundPropsType,
+  ChildrenPropsType,
   DimensionPropsType,
   TextPropsType,
   ZIndexPropsType,
@@ -18,6 +19,7 @@ export interface TooltipRef {
 
 export interface TooltipProps
   extends RNViewProps,
+    ChildrenPropsType,
     SpacingPropsType,
     ShadowPropsType,
     RoundedPropsType,

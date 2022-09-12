@@ -6,6 +6,7 @@ import {
 import { AvatarGroup } from './avatar.group.component';
 import {
   BorderPropsType,
+  ChildrenPropsType,
   SpacingPropsType,
   RoundedPropsType,
   ShadowPropsType,
@@ -25,6 +26,7 @@ export type CompoundedAvatar<P> = React.FunctionComponent<P> & {
 export interface AvatarProps
   extends RNViewProps,
     BorderPropsType,
+    ChildrenPropsType,
     SpacingPropsType,
     RoundedPropsType,
     ShadowPropsType,

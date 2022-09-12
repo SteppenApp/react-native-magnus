@@ -320,3 +320,7 @@ export const variantProps = ['variant'] as const;
 export interface VariantPropsType {
   variant?: string;
 }
+
+export interface ChildrenPropsType {
+  children?: React.ReactNode;
+}

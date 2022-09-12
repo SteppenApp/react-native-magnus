@@ -1,6 +1,7 @@
 import { ScrollViewProps as RNScrollViewProps } from 'react-native';
 import {
   BackgroundPropsType,
+  ChildrenPropsType,
   DimensionPropsType,
   FlexPropsType,
   PositionPropsType,
@@ -13,6 +14,7 @@ import {
 
 export interface ScrollDivProps
   extends RNScrollViewProps,
+    ChildrenPropsType,
     BorderPropsType,
     SpacingPropsType,
     ShadowPropsType,
